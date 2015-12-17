@@ -46,7 +46,7 @@ const int Rook::value() const
 void Rook::display(ostream& outStream) const
 {
     // Display the Rook's color and the R representing the Rook.
-    outStream << (color() == "W" ? "\u2656" : "\u265C") << " ";
+    outStream << color() << 'R';
 }
 
 // Do nothing.

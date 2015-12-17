@@ -134,7 +134,7 @@ void Pawn::display(ostream& outStream) const
     else
     {
         // Output the color of the Piece and a 'P'
-        outStream << (color() == "W" ? "\u2659" : "\u265F") << " ";
+        outStream << color() << 'P';
     }
 }
 

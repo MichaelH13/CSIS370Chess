@@ -46,7 +46,7 @@ const int Queen::value() const
 void Queen::display(ostream& outStream) const
 {
     // Display the Queen's color and the Q representing the Queen.
-    outStream << (color() == "W" ? "\u2655" : "\u265B") << " ";
+    outStream << color() << "Q";
 }
 
 // Do nothing.

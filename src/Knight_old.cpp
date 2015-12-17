@@ -50,7 +50,7 @@ bool Knight::canMoveTo(Square& location) const
 void Knight::display(ostream& outStream) const
 {
     // Display the Knight's color and the N representing the Knight.
-    outStream << (color() == "W" ? "\u2658": "\u265E") << " ";
+    outStream << color() << "N";
 }
 
 // Do nothing.

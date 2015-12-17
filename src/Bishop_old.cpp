@@ -44,7 +44,7 @@ bool Bishop::canMoveTo(Square& location) const
 void Bishop::display(ostream& outStream) const
 {
     // Display the color of the Bishop and the B representing the Bishop.
-    outStream << (color() == "W" ? "\u2657" : "\u265D") << " ";
+    outStream << color() << 'B';
 }
 
 // Do nothing.

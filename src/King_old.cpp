@@ -47,7 +47,7 @@ const int King::value() const
 void King::display(ostream& outStream) const
 {
     // Display the King's color and the K representing the King.
-    outStream << (color() == "W" ? "\u2654" : "\u265A") << " ";
+    outStream << color() << 'K';
 }
 
 // Do nothing.
